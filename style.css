@@ -27,5 +27,17 @@ h1{
 
 h3{
     font-size: 2em;
-    margin-top: 20px;
+    margin: 20px 0;
+}
+
+.mensagem {
+    font-size: 1.5em;
+}
+
+.box{
+    border: 2px solid var(--text-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
 }
