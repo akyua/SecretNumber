@@ -14,5 +14,5 @@ elementLowerValue.innerHTML = lowerValue;
 const elementHighestValue = document.getElementById('highest-value')
 elementHighestValue.innerHTML = highestValue;
 
-const result = document.querySelector('.box')
-result.innerHTML = secretNumber;
+// const result = document.querySelector('.box')
+// result.innerHTML = secretNumber;
