@@ -34,3 +34,9 @@ function validation(number){
 function numberHighestorLower(number){
     return number > highestValue || number < lowerValue;
 }
+
+document.body.addEventListener('click', e => {
+    if(e.target.id == 'play-again') {
+        window.location.reload();
+    }
+})
