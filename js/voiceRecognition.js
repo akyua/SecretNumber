@@ -3,7 +3,7 @@ const elementGuess = document.getElementById('guess')
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 
 const recognition = new SpeechRecognition();
-recognition.lang ='pt-Br'
+recognition.lang ='en-US'
 recognition.start()
 
 recognition.addEventListener('result', onSpeak)
@@ -20,3 +20,5 @@ function showGuess(guess){
     <span class="box">${guess}</span>
     `
 }
+
+recognition.addEventListener('end', () => recognition.start())

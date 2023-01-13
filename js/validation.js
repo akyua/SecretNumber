@@ -14,6 +14,7 @@ function verifyGuess(guess) {
         document.body.innerHTML = `
             <h2>You guess!</h2>
             <h3>The secret number was ${secretNumber}<h3>
+            <button id="play-again" class="btn-play">Play again</button>
         `
     } else if(number > secretNumber){
         elementGuess.innerHTML += `
